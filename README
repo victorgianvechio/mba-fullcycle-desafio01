@@ -1,3 +1,5 @@
+# DESAFIO
+
 Olá dev, tudo bem?
  
 Neste desafio vamos aplicar o que aprendemos sobre webserver http, contextos,
@@ -24,3 +26,20 @@ O client.go terá que salvar a cotação atual em um arquivo "cotacao.txt" no fo
 O endpoint necessário gerado pelo server.go para este desafio será: /cotacao e a porta a ser utilizada pelo servidor HTTP será a 8080.
  
 Ao finalizar, envie o link do repositório para correção.
+
+# CORRIGIR ERRO DE GCC
+
+Baixe o **mingw-64** no link abaixo:
+
+- [Download do mingw-64](https://www.mingw-w64.org/downloads/#mingw-w64-builds)
+
+Extrair a pasta para o c:/
+
+Criar variável de ambiente apontando para a pasta do arquivo, ex: **C:\mingw64\bin**
+
+Habilitar o CGO no Go
+
+
+```bash
+set CGO_ENABLED=1
+```
